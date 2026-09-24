@@ -12,8 +12,11 @@ const siteConfig = {
     mainScript: "https://raw.githubusercontent.com/Recte-Development/rectehoststuff/refs/heads/main/narrowone.js",
   },
   "buildnow-gg.game-files.crazygames.com" : {
-mainScript: "https://raw.githubusercontent.com/Recte-Development/rectehoststuff/refs/heads/main/bngg.js", 
-}
+    mainScript: "https://raw.githubusercontent.com/Recte-Development/rectehoststuff/refs/heads/main/bngg.js", 
+  },
+  "poxel.io" : {
+    mainScript: "https://raw.githubusercontent.com/Recte-Development/PoxelV4/refs/heads/master/Recte.user.js", 
+  }
 };
 
 const website = window.location.hostname;
